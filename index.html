@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PapasPizza</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/https://thumb.cloud.mail.ru/weblink/thumb/xw1/Z9qX/Rk7gJiBKf" type="image/png">
+    <link rel="icon" type="image/png" href="https://thumb.cloud.mail.ru/weblink/thumb/xw1/Z9qX/Rk7gJiBKf" />
+<!--     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./fonts.css">
+    <link rel="stylesheet" href="./swiper.css"> -->
+<script defer src="main.bundle.js"></script></head>
+<!-- <div class="loader">
+    <span>L</span>
+    <span>O</span>
+    <span>A</span>
+    <span>D</span>
+    <span>I</span>
+    <span>N</span>
+    <span>G</span>
+</div> -->
+<body class="wrapper">  
+    <div class="content">
+
+    
+    
+    <header>
+            <div class="header-top center">
+                <div class="header-top-left">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.0201 3.90632C8.5438 3.89562 7.33479 5.11238 7.32362 6.62015C7.3125 8.12785 8.50412 9.36364 9.97993 9.375C9.98678 9.37504 9.99358 9.37508 10.0004 9.37508C11.4668 9.37508 12.6653 8.16195 12.6764 6.66117C12.6875 5.15355 11.4959 3.91769 10.0201 3.90632ZM10.0003 8.59387C9.99553 8.59387 9.99048 8.59383 9.98567 8.59379C8.9315 8.58567 8.08032 7.70293 8.08828 6.62601C8.09619 5.55394 8.95219 4.68745 9.99966 4.68745C10.0045 4.68745 10.0095 4.68749 10.0143 4.68753C11.0685 4.69566 11.9197 5.57839 11.9117 6.65531C11.9038 7.72738 11.0478 8.59387 10.0003 8.59387Z" fill="#FF7010"/>
+                        <path d="M12.346 14.7048C14.8891 11.3605 16.4784 9.6165 16.4998 6.69056C16.5267 3.00919 13.6025 0 9.99941 0C6.43839 0 3.52729 2.94641 3.50022 6.59095C3.47835 9.59623 5.09716 11.3378 7.65781 14.7042C5.11043 15.0932 3.50022 16.0704 3.50022 17.2657C3.50022 18.0663 4.22461 18.7848 5.53999 19.2887C6.73723 19.7474 8.32118 20 10 20C11.6789 20 13.2628 19.7474 14.46 19.2887C15.7754 18.7848 16.4998 18.0663 16.4998 17.2656C16.4998 16.071 14.8911 15.094 12.346 14.7048ZM4.26487 6.59685C4.28873 3.38087 6.85714 0.781252 9.99948 0.781252C13.179 0.781252 15.7589 3.43704 15.7352 6.68474C15.7148 9.46342 14.0294 11.1758 11.3385 14.7595C10.8586 15.3984 10.4178 16.0025 10.0006 16.5934C9.5846 16.0021 9.15262 15.4089 8.66548 14.7593C5.86342 11.0255 4.24415 9.44256 4.26487 6.59685ZM10 19.2188C6.71754 19.2188 4.26487 18.1877 4.26487 17.2657C4.26487 16.5819 5.73109 15.7182 8.19638 15.4191C8.74134 16.1496 9.21911 16.8132 9.68772 17.4911C9.75929 17.5946 9.8756 17.6562 9.99967 17.6563C9.99979 17.6563 9.9999 17.6563 10 17.6563C10.124 17.6563 10.2402 17.5949 10.3119 17.4916C10.7761 16.8226 11.267 16.1425 11.8073 15.4195C14.2702 15.7189 15.7352 16.5824 15.7352 17.2657C15.7351 18.1877 13.2825 19.2188 10 19.2188Z" fill="#FF7010"/>
+                    </svg>
+                    <select>
+                        <option>Минск</option>
+                        <option>Брест</option>
+                        <option>Гомель</option>
+                    </select>
+                <p>Среднее время доставки: <span style="font-weight: bold;">00:24:35</span> </p>
+                </div>
+                <div class="header-top-right">
+                    <p class="time-work">Время работы: с 11:00 до 23:00</p>
+                    <div class="enter" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 0C7.35804 0 5.20825 2.14979 5.20825 4.79176C5.20825 7.43372 7.35803 9.58333 10 9.58333C12.642 9.58333 14.7918 7.43372 14.7918 4.79176C14.7918 2.14979 12.642 0 10 0ZM6.2755 4.79176C6.2755 2.73768 7.94613 1.06724 10 1.06724C12.0539 1.06724 13.7245 2.73768 13.7245 4.79176C13.7245 6.84566 12.0539 8.51609 10 8.51609C7.94614 8.51609 6.2755 6.84566 6.2755 4.79176Z" fill="#FF7010"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.96381 11.6665C3.59468 11.6665 1.66663 13.6453 1.66663 16.0768V19.4881C1.66663 19.7705 1.89005 19.9998 2.1652 19.9998H17.8347C18.1099 19.9998 18.3333 19.7705 18.3333 19.4881V16.0768C18.3333 13.6453 16.4052 11.6665 14.0361 11.6665H5.96381ZM2.66378 16.0768C2.66378 14.2092 4.14412 12.6899 5.96381 12.6899H14.0361C15.8558 12.6899 17.3361 14.2092 17.3361 16.0768V18.9764H2.66378V16.0768Z" fill="#FF7010"/>
+                        </svg>
+                        <p>Войти в аккаунт</p>
+                    </div>
+                </div>
+            </div> 
+        <hr>
+        <div class="header-niz center">
+            <div class="header-niz-left">
+                <img src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/j7q1/9kHAGzaqp" alt="">
+            </div>
+            <div class="korzina">
+                <button class="btn1" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_3506_12636)">
+                    <path d="M7.78125 15.5001H20.4846C20.7991 15.5001 21.0751 15.293 21.1602 14.9922L23.9729 5.1921C24.0333 4.98083 23.9919 4.75388 23.8588 4.57833C23.7255 4.40333 23.5183 4.29998 23.2971 4.29998H6.15802L5.6554 2.04833C5.58398 1.72768 5.29834 1.5 4.96875 1.5H0.703125C0.314575 1.5 0 1.81317 0 2.19999C0 2.587 0.314575 2.89999 0.703125 2.89999H4.40442L6.94354 14.2749C6.19647 14.5983 5.67188 15.3386 5.67188 16.2001C5.67188 17.358 6.61816 18.3 7.78125 18.3H20.4846C20.8733 18.3 21.1877 17.987 21.1877 17.6C21.1877 17.2132 20.8733 16.9 20.4846 16.9H7.78125C7.39398 16.9 7.07813 16.5863 7.07813 16.2001C7.07813 15.8138 7.39398 15.5001 7.78125 15.5001Z" fill="white"/>
+                    <path d="M7.07812 20.3998C7.07812 21.5579 8.02441 22.4998 9.18768 22.4998C10.3508 22.4998 11.2971 21.5579 11.2971 20.3998C11.2971 19.2419 10.3508 18.2998 9.18768 18.2998C8.02441 18.2998 7.07812 19.2419 7.07812 20.3998Z" fill="white"/>
+                    <path d="M16.9689 20.3998C16.9689 21.5579 17.9152 22.4998 19.0782 22.4998C20.2415 22.4998 21.1876 21.5579 21.1876 20.3998C21.1876 19.2419 20.2415 18.2998 19.0782 18.2998C17.9152 18.2998 16.9689 19.2419 16.9689 20.3998Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_3506_12636">
+                    <rect width="24" height="24" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg><p class="summ">0</p><p> BYN</p></button>
+            </div>
+        </div> 
+    </header>  
+    <section class="center" id="verh">
+        <div class="vibor">
+            <img class="card2" id="cart-pizza" src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/GE8q/seUz9T44Q" alt="">
+            <img class="card2" id="cart-sushi" src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/y9aH/x1iJUZ4dx" alt="">
+            <img class="card2" id="cart-zakuski" src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/TEmP/ubtzxJ9fk" alt="">
+            <img class="card2" id="cart-desert" src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/7UfV/C88dpLYgN" alt="">
+            <img class="card2" id="cart-drink" src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/h8bM/C5JRn9QV4" alt="">
+            <img class="card2" id="cart-kombo" src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/hWiT/Hx5SgV9Xj" alt="">
+            <img class="card2" id="cart-sous" src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/3v1i/MvuDuJW78" alt="">  
+        </div>
+        <div class="cards">
+            <img class="card" src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/QuKY/Di7tuLHKm" alt="">
+            <img class="card" src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/pzoJ/tVnRXdg43" alt="">
+            <img class="card" src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/QuKY/Di7tuLHKm" alt="">
+            <img class="card" src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/pzoJ/tVnRXdg43" alt="">
+        </div>
+        <div class="checkAdres" id="checkAdres">
+            <p>Проверить адрес доставки</p>
+            <input type="text" name="adres" id="adres" placeholder="Адрес">
+            <svg width="150" height="48" viewBox="0 0 150 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="150" height="48" rx="6" fill="#FF7010"/>
+                <path d="M42.3516 30V18.7266H33.5156V30H34.9297V20.0078H40.9609V30H42.3516ZM49.3125 21.4297C48.1641 21.4297 47.1562 22.0156 46.6172 22.9844H46.4922V21.5781H45.2109V32.8125H46.5547V28.7344H46.6797C47.1406 29.625 48.1094 30.1484 49.3125 30.1484C51.4531 30.1484 52.8516 28.4219 52.8516 25.7891C52.8516 23.1406 51.4609 21.4297 49.3125 21.4297ZM48.9922 28.9375C47.4766 28.9375 46.5156 27.7188 46.5156 25.7891C46.5156 23.8516 47.4766 22.6406 49 22.6406C50.5391 22.6406 51.4609 23.8203 51.4609 25.7891C51.4609 27.7578 50.5391 28.9375 48.9922 28.9375ZM58.5859 30.1484C60.9844 30.1484 62.4688 28.4922 62.4688 25.7891C62.4688 23.0781 60.9844 21.4297 58.5859 21.4297C56.1875 21.4297 54.7031 23.0781 54.7031 25.7891C54.7031 28.4922 56.1875 30.1484 58.5859 30.1484ZM58.5859 28.9375C56.9922 28.9375 56.0938 27.7812 56.0938 25.7891C56.0938 23.7891 56.9922 22.6406 58.5859 22.6406C60.1797 22.6406 61.0781 23.7891 61.0781 25.7891C61.0781 27.7812 60.1797 28.9375 58.5859 28.9375ZM68.125 22.7031C69.0703 22.7031 69.4922 23.1719 69.4922 23.875C69.4922 24.6641 69 25.0781 67.9062 25.0781H66.0703V22.7031H68.125ZM68.0234 26.2031C69.2344 26.2031 69.8594 26.6172 69.8594 27.5547C69.8594 28.4062 69.3125 28.875 68.2812 28.875H66.0703V26.2031H68.0234ZM64.7266 30H68.3125C70.125 30 71.1953 29.0469 71.1953 27.5781C71.1953 26.5625 70.5156 25.7812 69.4453 25.6328V25.5078C70.2344 25.3438 70.8203 24.5625 70.8203 23.7344C70.8203 22.4297 69.8906 21.5781 68.2969 21.5781H64.7266V30ZM76.7812 22.6172C78.1172 22.6172 79.0078 23.6016 79.0391 25.0938H74.3984C74.5 23.6016 75.4375 22.6172 76.7812 22.6172ZM79 27.8203C78.6484 28.5625 77.9141 28.9609 76.8281 28.9609C75.3984 28.9609 74.4688 27.9062 74.3984 26.2422V26.1797H80.4531V25.6641C80.4531 23.0469 79.0703 21.4297 76.7969 21.4297C74.4844 21.4297 73 23.1484 73 25.7969C73 28.4609 74.4609 30.1484 76.7969 30.1484C78.6406 30.1484 79.9375 29.2656 80.3438 27.8203H79ZM86.8125 21.4297C85.6641 21.4297 84.6562 22.0156 84.1172 22.9844H83.9922V21.5781H82.7109V32.8125H84.0547V28.7344H84.1797C84.6406 29.625 85.6094 30.1484 86.8125 30.1484C88.9531 30.1484 90.3516 28.4219 90.3516 25.7891C90.3516 23.1406 88.9609 21.4297 86.8125 21.4297ZM86.4922 28.9375C84.9766 28.9375 84.0156 27.7188 84.0156 25.7891C84.0156 23.8516 84.9766 22.6406 86.5 22.6406C88.0391 22.6406 88.9609 23.8203 88.9609 25.7891C88.9609 27.7578 88.0391 28.9375 86.4922 28.9375ZM93.9609 30L98.1562 23.7188H98.2812V30H99.625V21.5781H98.2812L94.0859 27.8594H93.9609V21.5781H92.6172V30H93.9609ZM108.406 21.5781H101.594V22.7031H104.328V30H105.672V22.7031H108.406V21.5781ZM113.375 25.4062C114.477 25.4062 115.195 26.0859 115.195 27.1406C115.195 28.1875 114.484 28.875 113.375 28.875H111.711V25.4062H113.375ZM110.367 30H113.375C115.305 30 116.539 28.8906 116.539 27.1406C116.539 25.3906 115.305 24.2812 113.375 24.2812H111.711V21.5781H110.367V30Z" fill="white"/>
+            </svg>
+        </div>
+    </section>
+    <section class="products-cards">
+        <div class="center block prod" id="cart-pizza">
+            <div class="block-top">
+                <h2>Пицца</h2>
+                <button class="btn2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.33333 16C6.27667 16 6.22 15.986 6.16933 15.9567C6.06467 15.8973 6 15.7867 6 15.6667V8.932C6 8.646 5.87733 8.374 5.664 8.18467L0.558667 3.64933C0.204 3.33533 0 2.87933 0 2.4V1C0 0.448667 0.448667 0 1 0H15C15.5513 0 16 0.448667 16 1V2.4C16 2.87933 15.796 3.33533 15.4407 3.65L10.336 8.18533C10.1227 8.37467 10 8.64667 10 8.932V13.2887C10 13.6373 9.81467 13.966 9.51467 14.146L6.504 15.952C6.452 15.984 6.39267 16 6.33333 16ZM1 0.666667C0.816667 0.666667 0.666667 0.816 0.666667 1V2.4C0.666667 2.68867 0.788667 2.96267 1.00067 3.15L6.10667 7.686C6.462 8.002 6.66667 8.456 6.66667 8.932V15.078L9.172 13.5753C9.27133 13.5153 9.33333 13.4053 9.33333 13.2893V8.93267C9.33333 8.45667 9.538 8.002 9.89333 7.68667L14.9987 3.15133C15.2113 2.96267 15.3333 2.68867 15.3333 2.4V1C15.3333 0.816 15.1833 0.666667 15 0.666667H1Z" fill="#FF7010"/>
+                    </svg><span>Фильтры</span></button>
+            </div>
+            <div class="items">
+                
+            </div>
+        </div>
+
+        <div class="center block prod" id="cart-sushi">
+            <div class="block-top">
+                <h2>Cуши</h2>
+            </div>
+            <div class="items">
+                
+            </div>
+        </div>
+
+        <div class="center block prod" id="cart-zakuski">
+            <div class="block-top">
+                <h2>Закуски</h2>
+            </div>
+            <div class="items">
+               
+            </div>
+        </div>
+
+        <div class="center block prod" id="cart-desert">
+            <div class="block-top">
+                <h2>Десерты</h2>
+            </div>
+            <div class="items">
+               
+            </div>
+        </div>
+
+        <div class="center block prod" id="cart-drink">
+            <div class="block-top">
+                <h2>Напитки</h2>
+            </div>
+            <div class="items">
+              
+            </div>
+        </div>
+
+        <div class="center block prod" id="cart-kombo">
+            <div class="block-top">
+                <h2>Комбо</h2>
+            </div>
+            <div class="items">
+               
+            </div>
+        </div>
+
+        <div class="center block prod" id="cart-sous">
+            <div class="block-top">
+                <h2>Соусы</h2>
+            </div>
+            <div class="items">
+                
+            </div>
+        </div>
+
+    </section>
+    <!-- <div class="swiper mySwiper center">
+        <div class="swiper-wrapper">
+            <img class="card2 swiper-slide" src="./images/actions.png" alt="">
+            <img class="card2 swiper-slide" src="./images/desert.png" alt="">
+            <img class="card2 swiper-slide" src="./images/drinks.png" alt="">
+            <img class="card2 swiper-slide" src="./images/kombo.png" alt="">
+            <img class="card2 swiper-slide" src="./images/pizza.png" alt="">
+            <img class="card2 swiper-slide" src="./images/actions.png" alt="">
+            <img class="card2 swiper-slide" src="./images/desert.png" alt="">
+            <img class="card2 swiper-slide" src="./images/drinks.png" alt="">
+            <img class="card2 swiper-slide" src="./images/kombo.png" alt="">
+            <img class="card2 swiper-slide" src="./images/pizza.png" alt="">
+            <img class="card2 swiper-slide" src="./images/actions.png" alt="">
+            <img class="card2 swiper-slide" src="./images/desert.png" alt="">
+            <img class="card2 swiper-slide" src="./images/drinks.png" alt="">
+            <img class="card2 swiper-slide" src="./images/kombo.png" alt="">
+            <img class="card2 swiper-slide" src="./images/pizza.png" alt="">
+        </div>
+        <div class="swiper-pagination"></div>
+      </div> -->
+   <footer>
+        <div class="center footer-content">
+            <div class="footer-logo">
+                <img src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/j7q1/9kHAGzaqp" alt="">
+                <!-- <h3>Pizza</h3> -->
+            </div>
+            <ul>
+                <li class="foot-li-first">Pizza</li>
+                <li class="foot-li">О компании</li>
+                <li class="foot-li">Соглашение</li>
+                <li class="foot-li">Условия</li>
+            </ul>
+            <ul>
+                <li class="foot-li-first">Помощь</li>
+                <li class="foot-li">Ресторан</li>
+                <li class="foot-li">Контакты</li>
+                <li class="foot-li">Поддержка</li>
+                <li class="foot-li">Отследить заказ</li>
+            </ul>
+            <ul>
+                <li class="foot-li-first">Контакты</li>
+                <li class="foot-li">О компании</li>
+                <li class="foot-li">Соглашение</li>
+                <li class="foot-li">Условия</li>
+        </ul>
+        </div>
+    </footer> 
+
+    <div class="modal fade enter login" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div>
+              <h5 class="modal-title" id="staticBackdropLabel">Вход в аккаунт</h5>
+            </div>
+            <div class="modal-body">
+            <input type="email" name="email-enter" id="email-enter" placeholder="Enter your e-mail:">
+            <form autocomplete="off"><input type="password" name="password" id="password-enter" placeholder="Enter your password:" autocomplete="off"></form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+              <button type="button" class="btn btn-primary registr" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">Регистрация</button>
+              <button type="button" class="btn btn-primary vhod">Войти</button>
+            </div>
+          </div>
+        </div>
+    </div> 
+
+    <div class="modal fade enter" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div>
+              <h5 class="modal-title" id="staticBackdropLabel">Регистрация</h5>
+            </div>
+            <div class="modal-body">
+            <input type="email" name="email-registr" id="emailRegistr" placeholder="Enter your e-mail:">
+            <form><input type="password" name="password" id="password-registr" placeholder="Enter your password:" autocomplete="off"></form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                <button type="button" class="btn btn-primary registr-final" >Регистрация</button>
+            </div>
+          </div>
+        </div>
+    </div> 
+
+
+
+    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content vibor">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="choose-content">
+                <img id="pic" src="" alt="pic">
+                <div class="vibor-right">
+                    <h5 class="modal-title vibor-title" id="staticBackdropLabel"></h5>
+                    <p class="describes"></p>
+                    <div class="form_radio_group">
+                        <div class="form_radio_group-item">
+                            <input id="radio-1" type="radio" name="radio" value="20 см" checked>
+                            <label for="radio-1">20 см</label>
+                        </div>
+                        <div class="form_radio_group-item">
+                            <input id="radio-2" type="radio" name="radio" value="28 см">
+                            <label for="radio-2">28 см</label>
+                        </div>
+                        <div class="form_radio_group-item">
+                            <input id="radio-3" type="radio" name="radio" value="33 см">
+                            <label for="radio-3">33 см</label>
+                        </div>
+                    </div>
+
+                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check testo-ob" name="btnradio" id="btnradio1" autocomplete="off" value="Традиционное" checked>
+                        <label class="btn btn-outline-primary" for="btnradio1">Традиционное</label>
+                      
+                        <input type="radio" class="btn-check testo-ton" name="btnradio" id="btnradio2" value="Тонкое" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btnradio2">Тонкое</label>
+                    </div>
+                    <h4 class="dobav">Добавьте в пиццу</h4>
+                    <div class="dobavki">
+                        <div class="dobavka">
+                            <img src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/fv2P/EoaGMiNaw" alt="">
+                            <p class="dobname">Бекон</p>
+                            <p class="dobcena">2 руб.</p>
+                        </div>
+                        <div class="dobavka">
+                            <img src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/bz1v/Z8CWenPio" alt="">
+                            <p class="dobname">Ветчина</p>
+                            <p class="dobcena">2 руб.</p>
+                        </div>
+                        <div class="dobavka">
+                            <img src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/m5K8/y223d5Bkw" alt="">
+                            <p class="dobname">Ананасы</p>
+                            <p class="dobcena">2 руб.</p>
+                        </div>
+                        <div class="dobavka">
+                            <img src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/CyND/Yoi6qtGs4" alt="">
+                            <p class="dobname">Брынза</p>
+                            <p class="dobcena">2 руб.</p>
+                        </div>  
+                        <div class="dobavka">
+                            <img src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/UhUJ/x1tYcoFyA" alt="">
+                            <p class="dobname">Митболы</p>
+                            <p class="dobcena">2 руб.</p>
+                        </div>
+                        <div class="dobavka">
+                            <img src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/9ZdV/EiuHQ37Xp" alt="">
+                            <p class="dobname">Острая чиризо</p>
+                            <p class="dobcena">2 руб.</p>
+                        </div>
+                        <div class="dobavka">
+                            <img src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/v3xh/9aNafr1R2" alt="">
+                            <p class="dobname">Острый халапенью</p>
+                            <p class="dobcena">2 руб.</p>
+                        </div>
+                        <div class="dobavka">
+                            <img src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/Njnc/ibnrrCzyU" alt="">
+                            <p class="dobname">Пикантная пепперони</p>
+                            <p class="dobcena">2 руб.</p>
+                        </div>
+                        <div class="dobavka">
+                            <img src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/Ajxj/EZuWwU3iN" alt="">
+                            <p class="dobname">Солёные огурчики</p>
+                            <p class="dobcena">2 руб.</p>
+                        </div>
+                        <div class="dobavka">
+                            <img src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/PtEz/jTTAWJ5PH" alt="">
+                            <p class="dobname">Томаты</p>
+                            <p class="dobcena">2 руб.</p>
+                        </div>
+                        <div class="dobavka">
+                            <img src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/swpw/GqcnMX3Da" alt="">
+                            <p class="dobname">Цыплёнок</p>
+                            <p class="dobcena">2 руб.</p>
+                        </div>
+                        <div class="dobavka">
+                            <img src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/TVPF/DhKciRwjW" alt="">
+                            <p class="dobname">Чеддер и пармезан</p>
+                            <p class="dobcena">2 руб.</p>
+                        </div>
+                    </div>
+                    <button class="add-tov" data-bs-dismiss="modal"></button>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Фильтры</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+        </div>
+        <div class="offcanvas-body">
+          <h5 id="filtr">Мясо</h5>
+          <div class="filters">
+            <div class="filter-item">Пепперони</div>
+            <div class="filter-item">Ветчина</div>
+            <div class="filter-item">Бекон</div>
+            <div class="filter-item">Цыплёнок</div>
+          </div>
+          <h5 id="filtr">Сыр</h5>
+          <div class="filters">
+            <div class="filter-item">Чеддер</div>
+            <div class="filter-item">Пармезан</div>
+            <div class="filter-item">Моцарелла</div>
+            <div class="filter-item">Блю чиз</div>
+          </div>
+          <h5 id="filtr">Компонент</h5>
+          <div class="filters">
+            <div class="filter-item">Ананасы</div>
+            <div class="filter-item">Томаты</div>
+            <div class="filter-item">Шампиньоны</div>
+            <div class="filter-item">Лук красный</div>
+            <div class="filter-item">Чеснок</div>
+            <div class="filter-item">Сладкий перец</div>
+          </div>
+          <button type="button" class="btn btn-danger">Применить</button>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Ваш заказ</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+        </div>
+        <div class="offcanvas-body">
+
+        </div>
+        <div class="podtv-zakaz">
+            <p class="itogo"></p>
+            <button type="button" class="btn oformlenie btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Оформить заказ</button>
+        </div>
+    </div>
+</div>
+    
+
+<!--     <script src="../src/js/zagruzka.js"></script>
+    <script src="../src/js/scrol.js"></script>
+    <script src="./js/zakaz-add.js"></script>
+    <script src="./js/slider.js"></script> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!--     <script src="./js/script.js"></script> -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<div id="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar"></div>
+</body>
+</html>
