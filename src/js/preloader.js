@@ -1,5 +1,4 @@
 
-
 function closePreloader() {
     const preloader = document.querySelector('#preloader');
     const mainContent = document.querySelector('.wrapper');

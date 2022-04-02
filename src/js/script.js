@@ -1,8 +1,5 @@
-
 import { diam } from "./zakaz-add.js";
 import {isAuthorisation} from "./login.js";
-console.log(diam);
-let finalSum = 0;
 let sum = 0;
 export let opisanieName = '';
 let opisanie = '';

@@ -54,5 +54,4 @@ const checkUser = (allUsers, userData) => {
 
 }
 
-
 export { isAuthorisation, writeAccountData } 

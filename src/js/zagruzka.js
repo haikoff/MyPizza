@@ -1,4 +1,3 @@
-
 const DATA_URL = "https://pizza-serv.herokuapp.com/api/";
 const products = ["pizza", "sushi", "zakuski", "desert", "drink", "kombo", "sous"];
 
@@ -18,14 +17,13 @@ export const getResult = async (tov) =>{
     result.forEach(produkt => {
          cartochka.innerHTML += `
         <div class="cartochka ${tov}">
-                    <img src="${produkt.image}" alt="">
-                    <h3>${produkt.title}</h3>
-                    <p class="describe">${produkt.description}</p>
-                    <div class="cartochka-niz" id="${tov}">
-                        <button class="choose" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">Выбрать</button>
-                        <p>От ${produkt.price} руб.</p>
-                    </div>
-                    
+            <img src="${produkt.image}" alt="">
+            <h3>${produkt.title}</h3>
+            <p class="describe">${produkt.description}</p>
+            <div class="cartochka-niz" id="${tov}">
+                    <button class="choose" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">Выбрать</button>
+                    <p>От ${produkt.price} руб.</p>
+            </div>
         </div>
         `
     });

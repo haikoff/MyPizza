@@ -4,7 +4,7 @@ import "../scss/main.scss";
 import "./footer.js";
 import "./vihod.js";
 import "../scss/kabinet.scss";
-import {otkuda} from "./header.js";
+import "../scss/adaptiv.scss"
 let email = sessionStorage.getItem('u-email');
 let keys = Object.keys(localStorage);
 let kod = '';
@@ -33,4 +33,3 @@ document.querySelectorAll('.countMinus').forEach(el =>{
     el.innerHTML='Количество: ';
 })
 
-alert(otkuda);
