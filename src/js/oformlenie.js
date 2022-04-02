@@ -2,6 +2,7 @@ import"./footer.js";
 import "../css/oforml.scss";
 import "../scss/main.scss";
 import "./header.js";
+import "./chat.js";
 import "./vihod.js";
 import "../scss/adaptiv.scss"
 import {otkuda} from "./header.js";

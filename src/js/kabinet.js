@@ -3,8 +3,9 @@ import "../css/oforml.scss";
 import "../scss/main.scss";
 import "./footer.js";
 import "./vihod.js";
+import "./chat.js";
 import "../scss/kabinet.scss";
-import "../scss/adaptiv.scss"
+import "../scss/adaptiv.scss";
 let email = sessionStorage.getItem('u-email');
 let keys = Object.keys(localStorage);
 let kod = '';
