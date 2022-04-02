@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<!--     <link rel="stylesheet" href="../scss/main.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/oforml.css"> -->
+</head>
+<body class="wrapper">
+    <header></header>
+    <section class="center">
+        <h1 class="zakaz-h1">Ваш заказ</h1>
+        <div class="oformlenie">
+        </div>
+        <div class="kupon">
+            <div class="kupon-inp">
+                <input type="text" class="inp" placeholder="Промокод">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="48" height="48" rx="6" fill="#FF7010"/>
+                    <g clip-path="url(#clip0_3624_14013)">
+                    <path d="M31.6875 22.4664L17.6047 16.7099C17.0115 16.4674 16.3412 16.5741 15.8556 16.9882C15.3699 17.4024 15.1668 18.0407 15.3256 18.6538L16.579 23.4962H22.7163C22.9987 23.4962 23.2277 23.7218 23.2277 24C23.2277 24.2782 22.9987 24.5038 22.7163 24.5038H16.579L15.3256 29.3462C15.1668 29.9593 15.3699 30.5975 15.8556 31.0117C16.3422 31.4267 17.0125 31.5321 17.6048 31.29L31.6875 25.5336C32.3287 25.2715 32.727 24.6838 32.727 24C32.727 23.3161 32.3287 22.7285 31.6875 22.4664Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_3624_14013">
+                    <rect width="17.4545" height="17.4545" fill="white" transform="translate(15.2725 15.2727)"/>
+                    </clipPath>
+                    </defs>
+                </svg>
+            </div>
+            <p></p>
+        </div>
+        <div class="dostavka">
+            <h3>Доставка</h3>
+            <input type="text" class="ulica" placeholder="Улица">
+            <div class="pole">
+                <input type="text" name="" id="dom" placeholder="Дом">
+                <input type="text" name="" id="podezd" placeholder="Подъезд"> 
+                <input type="text" name="" id="etazh" placeholder="Этаж">
+                <input type="text" name="" id="kvartira" placeholder="Квартира">
+            </div>
+        </div>
+
+        <h3>Оплата</h3>
+        <div class="oplata">
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check testo-ob" name="btnradio" id="btnradio1" autocomplete="off" value="Традиционное" checked>
+                <label class="btn btn-outline-primary" for="btnradio1">Наличными</label>
+              
+                <input type="radio" class="btn-check testo-ton" name="btnradio" id="btnradio2" value="Тонкое" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio2">Картой</label>
+            </div>
+        </div>
+
+            <h3>Комментарий</h3>
+            <div id="com">
+                <textarea name="" id="comment" cols="30" rows="10"></textarea>
+                <button type="button" class="btn btn-warning oformZakaz">Оформить заказ</button>
+            </div>
+    </section>
+    <footer></footer>
+    <style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1000px;background: #F89406 url(http://hello-site.ru//main/images/preloads/circles.svg) center center no-repeat;background-size:300px;}</style>
+<div id="hellopreloader"><div id="hellopreloader_preload"></div><p><a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a></p></div>
+<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+@media (max-width: 1280px) {
+  .checkAdres p {
+    font-size: smaller;
+    width: 170px;
+  }
+  .wrapper section .checkAdres #adres {
+    max-width: 600px;
+  }
+  #staticBackdrop2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .wrapper section .checkAdres #adres {
+    max-width: 300px;
+  }
+  .choose-content #pic {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 839px) {
+  .foot-li {
+    display: none;
+  }
+  .header-top-left p {
+    display: none;
+  }
+  .footer-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 780px) {
+  .choose-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+  }
+  .choose-content {
+    text-align: center;
+  }
+  .choose-content #pic {
+    margin: 0 auto;
+    padding-bottom: 0;
+  }
+  .choose-content #pic {
+    max-width: 110px;
+  }
+  .modal.show .modal-dialog {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 740px) {
+  .wrapper section .checkAdres p {
+    display: none;
+  }
+  .wrapper section .checkAdres #adres {
+    max-width: 496px;
+    margin-left: 0px;
+  }
+  .wrapper section .block .block-top {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .wrapper section .block .block-top .btn2 {
+    display: none;
+  }
+}
+
+@media (max-width: 630px) {
+  .items {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .cartochka {
+    width: 80% !important;
+    text-align: center;
+  }
+  .cartochka img {
+    width: 68%;
+  }
+  .wrapper section .checkAdres #adres {
+    width: 60%;
+  }
+  .modal-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .modal-footer button {
+    width: 60%;
+  }
+  .wrapper section .block .items .cartochka {
+    height: 519px;
+  }
+}
+
+@media (max-width: 560px) {
+  .time-work {
+    display: none;
+  }
+  .wrapper section .block .items .cartochka {
+    height: 475px;
+  }
+}
+
+@media (max-width: 430px) {
+  .header-niz {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .header-niz-left {
+    margin: 0 auto;
+  }
+  .choose {
+    margin: 0 auto;
+  }
+  .cartochka-niz {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cartochka {
+    height: 430px;
+  }
+  .wrapper header .header-niz .korzina .btn1 {
+    margin-bottom: 15px;
+  }
+  .zakaz .zakaz-describe .describe {
+    font-size: 10px;
+  }
+  .podtv-zakaz p {
+    font-size: 16px;
+  }
+  .wrapper section .block .items .cartochka {
+    height: 435px;
+  }
+}
+/*# sourceMappingURL=adaptiv.css.map */

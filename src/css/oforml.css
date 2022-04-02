@@ -1,0 +1,213 @@
+.zakaz {
+  max-width: 850px !important;
+  max-height: 152px;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  margin-bottom: 20px !important;
+}
+
+.zakaz-describe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 700px !important;
+}
+
+.zakaz .zakaz-counter {
+  max-width: 92px;
+  width: 100%;
+  height: 100%;
+  background: #FFEEE2;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.zakaz-niz {
+  display: -webkit-box  !important;
+  display: -ms-flexbox  !important;
+  display: flex  !important;
+  max-width: 200px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.zakaz-h1 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.kupon {
+  max-width: 850px;
+  width: 100%;
+  max-height: 80px;
+  height: 100%;
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.kupon-img {
+  margin-bottom: 14px;
+  margin-top: 16px;
+  margin-left: -48px;
+  cursor: pointer;
+}
+
+.kupon p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FF7010;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 24px;
+}
+
+.kupon-inp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inp {
+  width: 280px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 24px;
+  padding-left: 16px;
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.dostavka {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ulica {
+  width: 100%;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  padding-left: 16px;
+}
+
+#dom, #etazh, #kvartira, #podezd {
+  max-width: 154px;
+  width: 100%;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  padding-left: 16px;
+}
+
+.pole {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.oplata {
+  text-align: center;
+  z-index: 0;
+}
+
+.btn-group > .btn-check:checked + .btn {
+  z-index: 0;
+}
+
+.form-check-input:checked {
+  background-color: #ff7010;
+  border-color: #ff7010;
+}
+
+#com {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 850px;
+  width: 100%;
+  height: 200px;
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  margin-bottom: 225px;
+}
+
+#comment {
+  max-width: 850px;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+  margin-bottom: 25px;
+}
+
+.oformZakaz {
+  color: #F0F0F0;
+  background-color: #ff7010;
+  border-color: #ff7010;
+  margin-bottom: -65px;
+}
+
+.btn-outline-primary {
+  background-color: #F0F0F0;
+}
+/*# sourceMappingURL=oforml.css.map */

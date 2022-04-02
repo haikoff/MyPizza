@@ -1,0 +1,49 @@
+body{
+    section{
+        margin-bottom: 40px !important;
+        h1{
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .accordion-item{
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+    }
+    .zakaz{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+body {
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.order{
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    box-sizing: border-box;
+    border-radius: 12px;
+    max-width: 850px;
+    margin:  0 auto;
+    h2{
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+.zakaz-counter{
+    background-color: white !important;
+    margin-left: -100px;
+}
